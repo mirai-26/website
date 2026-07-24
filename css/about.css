@@ -1,0 +1,120 @@
+/* ========================================
+   ABOUT PAGE
+======================================== */
+
+/* ========= HERO ========= */
+
+.about-hero{
+
+    padding:140px 0 60px;
+    text-align:center;
+
+}
+
+.about-hero h1{
+
+    font-size:3rem;
+    margin-bottom:15px;
+
+}
+
+.about-hero p{
+
+    max-width:600px;
+    margin:auto;
+
+}
+
+/* ========= SECTIONS ========= */
+
+.about-section{
+
+    padding-top:2rem;
+
+}
+
+.about-grid{
+
+    display:grid;
+    gap:30px;
+    align-items:center;
+
+}
+
+.about-grid img{
+
+    width:100%;
+    border-radius:20px;
+    object-fit:cover;
+    box-shadow:var(--shadow-sm);
+
+}
+
+.about-grid p{
+
+    margin-bottom:15px;
+
+}
+
+/* ========= CENTER TEXT ========= */
+
+.center-text{
+
+    text-align:center;
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* ========= MISSION ========= */
+
+.mission-grid{
+
+    display:grid;
+    gap:20px;
+
+}
+
+.mission-grid .card{
+
+    padding:25px;
+    text-align:center;
+
+}
+
+.mission-grid h3{
+
+    margin-bottom:10px;
+
+}
+/* ========================================
+   DESKTOP
+======================================== */
+
+@media(min-width:768px){
+
+    .about-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+    .about-grid.reverse{
+
+        direction:rtl;
+
+    }
+
+    .about-grid.reverse > *{
+
+        direction:ltr;
+
+    }
+
+    .mission-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}

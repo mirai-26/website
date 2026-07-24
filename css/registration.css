@@ -1,0 +1,61 @@
+/* ========================================
+   REGISTRATION PAGE
+======================================== */
+
+.registration-hero{
+    padding:140px 0 60px;
+    text-align:center;
+}
+
+.registration-hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.registration-hero p{
+    max-width:550px;
+    margin:auto;
+}
+
+.registration-section{
+    padding-top:2rem;
+}
+
+.registration-card,
+.guidelines,
+.faq{
+    padding:25px;
+}
+
+.registration-card h3,
+.guidelines h3,
+.faq h3{
+    margin-bottom:15px;
+}
+
+.registration-card p,
+.guidelines li,
+.faq p{
+    margin-bottom:15px;
+}
+
+.guidelines ul{
+    padding-left:20px;
+    list-style:disc;
+}
+
+.registration-card .btn{
+    width:100%;
+    margin-top:20px;
+}
+
+@media(min-width:768px){
+
+    .registration-card,
+    .guidelines,
+    .faq{
+        max-width:700px;
+        margin:auto;
+    }
+
+}
