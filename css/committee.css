@@ -85,3 +85,36 @@
     }
 
 }
+
+/* ========= STUDENT COORDINATORS ========= */
+
+.student-coordinators{
+
+    text-align:center;
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+.student-coordinators p{
+
+    margin-bottom:25px;
+
+    line-height:1.8;
+
+}
+
+.student-coordinators strong{
+
+    color:var(--primary-dark);
+
+    font-size:1.1rem;
+
+}
+.student-coordinators i{
+    color: var(--primary);
+    margin-right: 6px;
+    font-size: 1rem;
+}
