@@ -87,7 +87,7 @@ button{
     --transition:.35s ease;
 
     --container:1200px;
-
+    
 }
 
 /* ========= TYPOGRAPHY ========= */
@@ -150,10 +150,37 @@ p{
 
 section{
 
-    padding:4rem 0;
+    padding:2.5rem 0;
+
+}
+/* ========================================
+   SECTION DIVIDER
+======================================== */
+
+.section-divider{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:10px;
+
+    margin:10px 0;
 
 }
 
+.section-divider span{
+
+    width:8px;
+    height:8px;
+
+    background:var(--primary);
+
+    border-radius:50%;
+
+    opacity:.7;
+
+}
 /* ========= BUTTONS ========= */
 
 .btn{
@@ -308,6 +335,9 @@ section{
     top:0;
     left:0;
     width:100%;
+    
+    height: var(--navbar-height);
+
 
     background:rgba(250,248,245,.95);
     backdrop-filter:blur(12px);

@@ -7,20 +7,16 @@
 /* ========= HERO ========= */
 
 .hero{
+    position: relative;
 
-    position:relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
-    min-height:100vh;
+    padding: 120px 0 60px;
 
-    display:flex;
-    align-items:center;
-
-    overflow:hidden;
-
-    padding-top:70px;
-
+    overflow: hidden;
 }
-
 .hero-bg{
 
     position:absolute;
