@@ -2,7 +2,7 @@ const events = {
 
 paper:{
 
-title:"Paper Presentation",
+title:"Tech Arena",
 
 description:"Present your innovative ideas and research before an expert panel.",
 
@@ -22,7 +22,6 @@ venue:"Will be Announced",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
 
 },
 
@@ -48,13 +47,12 @@ venue:"Will be Announced",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
 
 },
 
 error404:{
 
-title:"Error 404",
+title:"Bug Hunt",
 
 description:"Find bugs and solve coding challenges before time runs out.",
 
@@ -74,13 +72,13 @@ venue:"Will be Announced",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
+
 
 },
 
 aiq:{
 
-title:"AIQ",
+title:"Brain Byte",
 
 description:"Test your Artificial Intelligence knowledge through quizzes.",
 
@@ -100,39 +98,13 @@ venue:"Will be Announced",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
 
 },
 
-style:{
-
-title:"Style Ovation",
-
-description:"A fashion show celebrating confidence, creativity and style.",
-
-rules:[
-"Theme will be announced",
-"Decent dress code",
-"Time limit should be followed"
-],
-
-team:"Solo / Team",
-
-duration:"5 Minutes",
-
-judging:"Confidence, Creativity & Theme",
-
-venue:"Main Stage",
-
-faculty:"To be Updated",
-
-student:"To be Updated"
-
-},
 
 admad:{
 
-title:"Ad Mad",
+title:"Cine Quest",
 
 description:"Create entertaining advertisements using your imagination.",
 
@@ -152,13 +124,13 @@ venue:"Seminar Hall",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
+
 
 },
 
 mute:{
 
-title:"Guess in Mute",
+title:"Lyrics Decode",
 
 description:"Guess the word or movie through silent acting.",
 
@@ -178,13 +150,12 @@ venue:"Classroom",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
 
 },
 
 laugh:{
 
-title:"Try Not To Laugh",
+title:"Memora",
 
 description:"Control your laughter through hilarious challenges.",
 
@@ -204,7 +175,6 @@ venue:"Open Stage",
 
 faculty:"To be Updated",
 
-student:"To be Updated"
 
 }
 
@@ -261,11 +231,9 @@ modalBody.innerHTML=`
 
 <p>${event.faculty}</p>
 
-<h4>Student Coordinator</h4>
 
-<p>${event.student}</p>
 
-<a href="#" class="btn btn-primary">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSejGFXTR8E-fgLzxX6WQyLOOHGmxmiJYC2p6WIedvreE4hs9w/viewform?usp=header" class="btn btn-primary">
 
 Register
 
