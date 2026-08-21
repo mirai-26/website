@@ -1,266 +1,354 @@
 const events = {
 
-paper:{
+    paper: {
 
-title:"Tech Arena",
+        title: "Tech Arena",
 
-description:"Present your innovative ideas and research before an expert panel.",
+        description:
+            "Present Your Innovation!!!" +
+            "<br>" +
+            "Impress expert judges with your technical depth and presentation skills. Paper must be original." +
+            "<br><br>" +
+            "<strong>Related Domains:</strong> AI & ML, Cybersecurity & Blockchain, Green Computing & Sustainability, Human-Computer Interaction, Robotics & Automation, Recent Trends in Technology.",
 
-rules:[
-"Maximum 2 members per team",
-"Presentation should be within the allotted time",
-"Original work only"
-],
+        rules: [
+            "Maximum 3 members per team",
+            "The paper must be original",
+            "Presentation must be completed within the allotted time",
+            "Use PowerPoint with a maximum of 10 slides",
+            "Submit the paper in IEEE format along with the presentation"
+        ],
 
-team:"1 - 2 Members",
+        team: "1 - 3 Members",
 
-duration:"8 + 2 Minutes",
+        duration: "4 Minutes Presentation + 2 Minutes Q&A",
 
-judging:"Innovation, Presentation & Technical Knowledge",
+        judging:
+            "Innovation | Technical Depth | Clarity | Presentation | Q&A Skills",
 
-venue:"Will be Announced",
+        submission:
+            "Send your paper (IEEE format) & PPT to mirai26.aids.symposium@gmail.com"
 
-faculty:"To be Updated",
+    },
 
 
-},
+    prompt: {
 
-prompt:{
+        title: "Prompt Craft",
 
-title:"Prompt Craft",
+        description:
+            "On-spot AI Image Generation Challenge. Craft prompts and generate the best AI images!!!",
 
-description:"Solve exciting AI tasks using prompt engineering skills.",
+        rules: [
+            "Individual participation",
+            "The theme will be provided on the spot",
+            "Use only the permitted AI tool",
+            "Create the image based on the given theme",
+            "The generated image should be original"
+        ],
 
-rules:[
-"Individual Participation",
-"Use only the provided AI platform",
-"Follow the given problem statement"
-],
+        theme:
+            "Provided on the spot — use AI tools to generate the most creative and accurate image. Your prompt skills will guide the AI’s imagination!",
 
-team:"Individual",
+        team: "Individual",
 
-duration:"45 Minutes",
+        duration: "20 Minutes",
 
-judging:"Accuracy, Creativity & Efficiency",
+        tools: "Gemini",
 
-venue:"Will be Announced",
+        judging:
+            "Prompt Creativity | Relevance to Theme | Visual Appeal | Originality"
 
-faculty:"To be Updated",
+    },
 
 
-},
+    error404: {
 
-error404:{
+        title: "Bug Hunt",
 
-title:"Bug Hunt",
+        description:
+            "Debugging Challenge. Spot and fix errors in real code!!! No need to write from scratch, just debug like a pro.",
 
-description:"Find bugs and solve coding challenges before time runs out.",
+        rules: [
+            "Individual participation",
+            "Participants will be given code containing errors",
+            "No need to write the program from scratch",
+            "No external tools are allowed",
+            "Solutions must be completed within the allotted time"
+        ],
 
-rules:[
-"Individual Participation",
-"No internet browsing",
-"Judge's decision is final"
-],
+        team: "Individual",
 
-team:"Individual",
+        duration: "20 Minutes",
 
-duration:"60 Minutes",
+        language: "Python, C",
 
-judging:"Correctness & Speed",
+        judging:
+            "Syntax Correctness | Code Logic | Time Taken | No External Tools Allowed"
 
-venue:"Will be Announced",
+    },
 
-faculty:"To be Updated",
 
+    aiq: {
 
+        title: "Brain Byte",
 
-},
+        description:
+            "AI Knowledge Quiz with MCQs to test your AI understanding and trends!!!",
 
-aiq:{
+        rules: [
+            "Individual participation",
+            "Each question carries 1 point",
+            "There is no negative marking",
+            "Participants must answer within the allotted time",
+            "Top scorers will be awarded"
+        ],
 
-title:"Brain Byte",
+        team: "Individual",
 
-description:"Test your Artificial Intelligence knowledge through quizzes.",
+        duration: "20 Minutes",
 
-rules:[
-"Individual Participation",
-"No mobile phones",
-"Negative marking may apply"
-],
+        topics:
+            "AI Fundamentals | ML Basics | Data & Algorithms | AI Applications | Tech Trends",
 
-team:"Individual",
+        judging:
+            "+1 point per correct answer | No negative marking | Top scorers will be awarded"
 
-duration:"30 Minutes",
+    },
 
-judging:"Highest Score",
 
-venue:"Will be Announced",
+    admad: {
 
-faculty:"To be Updated",
+        title: "Poster Creation",
 
+        description:
+            "Create an eye-catching and creative poster based on a topic revealed on the spot. Participants must design and complete their poster within the given time using their creativity and design skills.",
 
-},
+        rules: [
+            "The topic will be announced at the beginning of the event",
+            "Participants must create the poster only using Canva",
+            "Pre-designed templates or content prepared before the event are not allowed",
+            "The poster must be completed within 50 minutes",
+            "Participants must submit their final poster before the time limit"
+        ],
 
+        team: "Individual",
 
-admad:{
+        duration: "50 Minutes",
 
-title:"Cine Quest",
+        tools: "Canva",
 
-description:"Create entertaining advertisements using your imagination.",
+        judging:
+            "Creativity | Relevance to the Given Topic | Visual Appeal | Originality | Effective Use of Canva | Content Presentation | Overall Design"
 
-rules:[
-"Props allowed",
-"Time limit must be followed",
-"Family-friendly content only"
-],
+    },
 
-team:"2 - 5 Members",
 
-duration:"5 Minutes",
+    mute: {
 
-judging:"Creativity & Presentation",
+        title: "Lyrics Decode",
 
-venue:"Seminar Hall",
+        description:
+            "English-translated lyrics of a Tamil song will be displayed. Participants must decode the clues, identify the lyrics, and find the original Tamil song within the given time.",
 
-faculty:"To be Updated",
+        rules: [
+            "Individual participation",
+            "English-translated lyrics will be displayed one at a time",
+            "Participants must identify the corresponding Tamil song",
+            "No mobile phones or internet access are allowed",
+            "No external assistance is allowed"
+        ],
 
+        team: "Individual",
 
+        duration: "20 Minutes",
 
-},
+        judging:
+            "Correct identification of the Tamil song. The participant who identifies the highest number of songs within the given time wins. In case of a tie, the participant with the fastest completion time will be given preference."
 
-mute:{
+    },
 
-title:"Lyrics Decode",
 
-description:"Guess the word or movie through silent acting.",
+    laugh: {
 
-rules:[
-"No speaking",
-"Follow the game rules",
-"Time based rounds"
-],
+        title: "Memora",
 
-team:"2 Members",
+        description:
+            "Watch a video carefully and observe even the smallest details. After the video ends, answer a series of questions based on what you saw and remember. Test your observation, attention to detail, and memory!",
 
-duration:"20 Minutes",
+        rules: [
+            "Participants must watch the video attentively",
+            "No recording or screenshots are allowed",
+            "No discussion with other participants is allowed",
+            "No external assistance is allowed",
+            "Questions will be based only on the content shown in the video"
+        ],
 
-judging:"Correct Guesses",
+        team: "Individual",
 
-venue:"Classroom",
+        duration: "20 Minutes",
 
-faculty:"To be Updated",
+        judging:
+            "Accuracy of answers. The participant with the highest number of correct answers wins. In case of a tie, the participant who completes the answers in the shortest time will be given preference."
 
-
-},
-
-laugh:{
-
-title:"Memora",
-
-description:"Control your laughter through hilarious challenges.",
-
-rules:[
-"No distractions",
-"Fair play",
-"Judges' decision is final"
-],
-
-team:"Individual",
-
-duration:"15 Minutes",
-
-judging:"Last Person Standing",
-
-venue:"Open Stage",
-
-faculty:"To be Updated",
-
-
-}
+    }
 
 };
 
 
-const modal=document.getElementById("eventModal");
+const modal = document.getElementById("eventModal");
 
-const modalBody=document.getElementById("modalBody");
+const modalBody = document.getElementById("modalBody");
 
-const buttons=document.querySelectorAll(".view-details");
+const buttons = document.querySelectorAll(".view-details");
 
-buttons.forEach(button=>{
 
-button.addEventListener("click",()=>{
+buttons.forEach(button => {
 
-const event=events[button.dataset.event];
+    button.addEventListener("click", () => {
 
-let rules="";
+        const event = events[button.dataset.event];
 
-event.rules.forEach(rule=>{
+        let rules = "";
 
-rules+=`<li>${rule}</li>`;
+        event.rules.forEach(rule => {
+
+            rules += `<li>${rule}</li>`;
+
+        });
+
+
+        /* Common details */
+
+        let content = `
+
+            <h2>${event.title}</h2>
+
+            <p>${event.description}</p>
+
+            <h4>Rules</h4>
+
+            <ul>${rules}</ul>
+
+            <h4>Team Size</h4>
+
+            <p>${event.team}</p>
+
+            <h4>Duration</h4>
+
+            <p>${event.duration}</p>
+
+            <h4>Judging Criteria</h4>
+
+            <p>${event.judging}</p>
+
+        `;
+
+
+        /* Event-specific details */
+
+        if (event.submission) {
+
+            content += `
+
+                <h4>Submission</h4>
+
+                <p>${event.submission}</p>
+
+            `;
+
+        }
+
+
+        if (event.theme) {
+
+            content += `
+
+                <h4>Theme</h4>
+
+                <p>${event.theme}</p>
+
+            `;
+
+        }
+
+
+        if (event.tools) {
+
+            content += `
+
+                <h4>Tools Allowed</h4>
+
+                <p>${event.tools}</p>
+
+            `;
+
+        }
+
+
+        if (event.language) {
+
+            content += `
+
+                <h4>Languages</h4>
+
+                <p>${event.language}</p>
+
+            `;
+
+        }
+
+
+        if (event.topics) {
+
+            content += `
+
+                <h4>Topics</h4>
+
+                <p>${event.topics}</p>
+
+            `;
+
+        }
+
+
+        /* Register button */
+
+        content += `
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGVM5dHMMHKTZk6YV5rs9KTLmdOsztU_dlioSxHLXNl2uBWQ/viewform?usp=dialog"
+
+               class="btn btn-primary">
+
+                Register
+
+            </a>
+
+        `;
+
+
+        modalBody.innerHTML = content;
+
+        modal.classList.add("active");
+
+    });
 
 });
 
-modalBody.innerHTML=`
 
-<h2>${event.title}</h2>
+document.querySelector(".close-modal").addEventListener("click", () => {
 
-<p>${event.description}</p>
-
-<h4>Rules</h4>
-
-<ul>${rules}</ul>
-
-<h4>Team Size</h4>
-
-<p>${event.team}</p>
-
-<h4>Duration</h4>
-
-<p>${event.duration}</p>
-
-<h4>Judging Criteria</h4>
-
-<p>${event.judging}</p>
-
-<h4>Venue</h4>
-
-<p>${event.venue}</p>
-
-<h4>Faculty Coordinator</h4>
-
-<p>${event.faculty}</p>
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSejGFXTR8E-fgLzxX6WQyLOOHGmxmiJYC2p6WIedvreE4hs9w/viewform?usp=header" class="btn btn-primary">
-
-Register
-
-</a>
-
-`;
-
-modal.classList.add("active");
-
-});
+    modal.classList.remove("active");
 
 });
 
 
-document.querySelector(".close-modal").addEventListener("click",()=>{
+window.addEventListener("click", (e) => {
 
-modal.classList.remove("active");
+    if (e.target === modal) {
 
-});
+        modal.classList.remove("active");
 
-
-window.addEventListener("click",(e)=>{
-
-if(e.target===modal){
-
-modal.classList.remove("active");
-
-}
+    }
 
 });

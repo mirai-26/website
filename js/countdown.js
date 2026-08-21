@@ -2,7 +2,7 @@
 // COUNTDOWN TIMER
 // ========================================
 
-const eventDate = new Date("September 3, 2026 09:00:00").getTime();
+const eventDate = new Date("September 2, 2026 09:00:00").getTime();
 
 function updateCountdown() {
 

@@ -22,8 +22,8 @@ html{
 
 body{
     font-family:'Poppins',sans-serif;
-    background:#FAF8F5;
-    color:#2D2D2D;
+    background:var(--background);
+    color:var(--text);
     overflow-x:hidden;
     line-height:1.6;
 }
@@ -58,17 +58,17 @@ button{
 
 :root{
 
-    --primary:#6F4E37;
-    --primary-dark:#4A3327;
-    --accent:#B08968;
+    --primary:#FAF8F5;
+    --primary-dark:#FAF8F5;
+    --accent:#D8BFA8;
 
-    --background:#FAF8F5;
-    --white:#ffffff;
+    --background:#4A3327;
+    --white:#5A3E2E;
 
-    --text:#2D2D2D;
-    --text-light:#7B7B7B;
+    --text:#FAF8F5;
+    --text-light:#E8DDD5;
 
-    --border:#ECE4DA;
+    --border:#FAF8F5;
 
     --radius-sm:8px;
     --radius-md:16px;
@@ -76,13 +76,13 @@ button{
     --radius-xl:32px;
 
     --shadow-sm:
-    0 4px 12px rgba(0,0,0,.05);
+    0 4px 12px rgba(0,0,0,.15);
 
     --shadow-md:
-    0 10px 30px rgba(0,0,0,.08);
+    0 10px 30px rgba(0,0,0,.20);
 
     --shadow-lg:
-    0 20px 50px rgba(0,0,0,.10);
+    0 20px 50px rgba(0,0,0,.25);
 
     --transition:.35s ease;
 
@@ -202,16 +202,13 @@ section{
     transition:var(--transition);
 
 }
-
 .btn-primary{
-
     background:var(--primary);
-
-    color:#fff;
-
+    color:#4A3327;
 }
 
 .btn-primary:hover{
+    
 
     background:var(--primary-dark);
 
@@ -220,13 +217,9 @@ section{
 }
 
 .btn-outline{
-
     border:2px solid var(--primary);
-
     color:var(--primary);
-
 }
-
 .btn-outline:hover{
 
     background:var(--primary);
@@ -239,7 +232,7 @@ section{
 
 .card{
 
-    background:white;
+    background:var(--white);
 
     border-radius:20px;
 
@@ -339,7 +332,7 @@ section{
     height: var(--navbar-height);
 
 
-    background:rgba(250,248,245,.95);
+    background:rgba(74,51,39,.95);
     backdrop-filter:blur(12px);
 
     border-bottom:1px solid var(--border);
@@ -406,7 +399,7 @@ section{
 /* ========= FOOTER ========= */
 
 footer{
-    background:#fff;
+    background:var(--white);
     margin-top:4rem;
     border-top:1px solid var(--border);
 }
@@ -468,7 +461,7 @@ footer{
 
     border-radius:50%;
     background:var(--primary);
-    color:#fff;
+    color:#4A3327;
 
     display:flex;
     align-items:center;
